@@ -1,25 +1,37 @@
-Snake Game 🐍
+## 🐍 Snake Game  
 
-**Description:**  
-Classic Snake game with smooth movements and a visually appealing grid. Control the snake to eat food, grow longer, and avoid collisions.
+**_Classic Snake Game with Smooth Movement and Glowing Visuals_**  
 
-**Features:**
+> 🚀 _Control the snake, eat the food, and grow as long as possible!_  
 
-- Smooth snake movement with keyboard controls (Arrow keys)
-- Glowing food and gradient-colored snake
-- Dynamic difficulty: speed increases as you eat food
-- Score tracking
-- Game over overlay with restart button
+### ✨ Project Overview
 
-**Tech Highlights:**
+A browser-based Snake game built with React.js. Features smooth movement, glowing snake and food, and an appealing grid layout. The goal is to collect food without hitting walls or yourself.  
 
-- CSS Grid for clean board layout
-- CSS transitions for smooth snake animation
-- React hooks for state management and keyboard events
+### 🧠 Project Goals
 
-**How to play:**
+- 🐍 Smooth snake movement across the grid  
+- 🎨 Visually appealing snake, food, and board  
+- ⏱️ Increasing difficulty as the snake grows  
+- 🖥️ Fully responsive and browser-friendly  
 
-1. Press arrow keys to control the snake.
-2. Eat green food to grow and increase your score.
-3. Avoid hitting walls or the snake’s own body.
-4. Restart the game after game over to try again.
+### 💻 Tech Stack
+
+| Layer      | Technology          |
+|------------|-------------------|
+| Frontend   | React.js, CSS      |
+| Backend    | None               |
+| Status     | ✅ Completed        |
+
+### 📦 Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/YourUsername/snake-game.git
+cd snake-game
+
+# Install dependencies
+npm install
+
+# Run locally
+npm start
