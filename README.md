@@ -1,12 +1,25 @@
-# React + Vite
+Snake Game 🐍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:**  
+Classic Snake game with smooth movements and a visually appealing grid. Control the snake to eat food, grow longer, and avoid collisions.
 
-Currently, two official plugins are available:
+**Features:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Smooth snake movement with keyboard controls (Arrow keys)
+- Glowing food and gradient-colored snake
+- Dynamic difficulty: speed increases as you eat food
+- Score tracking
+- Game over overlay with restart button
 
-## Expanding the ESLint configuration
+**Tech Highlights:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- CSS Grid for clean board layout
+- CSS transitions for smooth snake animation
+- React hooks for state management and keyboard events
+
+**How to play:**
+
+1. Press arrow keys to control the snake.
+2. Eat green food to grow and increase your score.
+3. Avoid hitting walls or the snake’s own body.
+4. Restart the game after game over to try again.
